@@ -1,0 +1,14 @@
+plugins:
+  - ./src/docs/redocly-plugin.js
+apis:
+  external@latest:
+    root: ./swagger.yml
+    decorators:
+      remove-x-internal: on
+    x-openapi-ts:
+      output: ./index.d.ts
+  docs@latest:
+    root: ./swagger.yml
+    decorators:
+      remove-x-internal: on
+      netlify-docs/operation-id-in-summary: on

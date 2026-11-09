@@ -1,0 +1,11 @@
+*.iml
+vendor
+*node_modules
+yarn.lock
+dist
+.vscode
+.gobincache
+swagger_flat.json
+swagger_go.json
+.netlify
+external.yml
