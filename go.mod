@@ -4,7 +4,7 @@ go 1.24
 
 require (
 	github.com/Azure/go-autorest/autorest v0.10.1
-	github.com/cenkalti/backoff/v4 v4.0.2
+	github.com/cenkalti/backoff/v4 v4.3.0
 	github.com/go-openapi/errors v0.19.9
 	github.com/go-openapi/runtime v0.19.24
 	github.com/go-openapi/strfmt v0.19.11
@@ -15,7 +15,6 @@ require (
 	github.com/rsc/goversion v1.2.0
 	github.com/sirupsen/logrus v1.6.0
 	github.com/stretchr/testify v1.8.2
-	golang.org/x/sys v0.5.0
 )
 
 require (
@@ -58,6 +57,7 @@ require (
 	go.mongodb.org/mongo-driver v1.4.4 // indirect
 	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
 	golang.org/x/net v0.7.0 // indirect
+	golang.org/x/sys v0.5.0 // indirect
 	golang.org/x/text v0.7.0 // indirect
 	golang.org/x/tools v0.1.12 // indirect
 	gopkg.in/ini.v1 v1.57.0 // indirect
